@@ -71,7 +71,7 @@
 }
 
 ::selection{
-  background-color: rgb(236, 70, 153);
+  background-color: #005ce6;
   color: #fff;
 }
 
@@ -111,7 +111,7 @@ body {
 
 .c {
   color: #005ce6;
-  color: hsl(330, 81%, 60%);
+  color: #005ce6;
 }
 
 .filter-grey {
