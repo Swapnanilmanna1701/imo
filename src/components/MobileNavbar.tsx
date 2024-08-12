@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import {
     Sheet,
     SheetContent,
@@ -28,15 +28,26 @@ const MobileNavbar = () => {
     };
 
     return (
-        <div className="flex items-center justify-between w-full h-full px-4 md:hidden">
+        <div className="flex items-center justify-between w-full h-full px-4 md:hidden text-white bg-black">
 
             <div className="flex items-center justify-center gap-x-2">
-                <Link href="/" className="flex items-center select-none gap-x-2">
-                    <Icons.icon className="w-7 h-7" />
-                    <h1 className="text-xl font-bold text-zinc-900">
-                        Flint
-                    </h1>
-                </Link>
+            <Link href="/" className="flex items-center select-none gap-x-2">
+              <Image
+                src="/icon.png"
+                width={80}
+                height={80}
+                alt="Imo Logo"
+                className="object-cover w-auto h-12 transition-all duration-700 ease-out dark:hidden"
+              />
+
+              <Image
+                src="/profile.ico"
+                width={80}
+                height={80}
+                alt="Imo Logo"
+                className="object-cover w-auto h-20 transition-all duration-700 ease-out dark:hidden"
+              />
+            </Link>
             </div>
 
             <div className="flex justify-end">

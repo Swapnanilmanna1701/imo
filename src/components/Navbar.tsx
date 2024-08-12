@@ -28,7 +28,7 @@ const Navbar = () => {
   const { isOpen, setIsOpen } = usePricingModal();
 
   return (
-    <header className="sticky inset-x-0 top-0 z-50 w-full border-b h-14 bg-white/50 backdrop-blur-md border-border">
+    <header className="sticky inset-x-0 top-0 z-50 w-full  h-14 bg-black backdrop-blur-md border-border">
       <div className="items-center justify-between hidden w-full h-full px-4 mx-auto max-w-screen-xl md:flex sm:px-8">
         <div className="flex items-center gap-x-8">
           <div className="flex items-center justify-center gap-x-2">
@@ -52,7 +52,7 @@ const Navbar = () => {
           </div>
           
 
-          <NavigationMenu className="hidden md:flex">
+          <NavigationMenu className="hidden md:flex text-white">
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuTrigger>Tools</NavigationMenuTrigger>
@@ -90,7 +90,7 @@ const Navbar = () => {
               <Button
                 size="sm"
                 variant="ghost"
-                className="pro text-rose-500 hover:bg-transparent"
+                className="pro text-blue-500 hover:bg-transparent"
                 onClick={() => setIsOpen(true)}
               >
                 Go Pro

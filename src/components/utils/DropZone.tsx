@@ -454,11 +454,11 @@ const DropZone = () => {
                             <div className="flex items-center justify-center w-12 h-12 text-white rounded-xl bg-gradient-to-b from-blue-500 to-blue-600">
                                 <CloudUpload strokeWidth={2} className="w-6 h-6" />
                             </div>
-                            <Button size="sm" variant="outline" className="mt-4">
-                                <File className="w-4 h-4 mr-2" />
+                            <Button size="sm" variant="outline" className="mt-4 text-black">
+                                <File className="w-4 h-4 mr-2 text-black" />
                                 Browse files
                             </Button>
-                            <p className="mt-2 text-sm text-center text-neutral-600">
+                            <p className="mt-2 text-sm text-center text-white">
                                 or drag and drop files here
                             </p>
                         </div>

@@ -21,7 +21,7 @@ const Pricing = () => {
         <div className="flex flex-col py-4 items-center justify-center w-full mb-40">
             <div className="hidden flex-col items-center justify-center">
                 <Badge>PRICING</Badge>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-neutral-800 text-center mt-5">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white text-center mt-5">
                     Simple and transparent pricing
                 </h2>
                 <p className="text-sm md:text-base text-center max-w-md mx-auto mt-4 text-muted-foreground">
