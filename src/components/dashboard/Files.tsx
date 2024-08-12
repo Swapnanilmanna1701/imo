@@ -24,7 +24,7 @@ const Files = () => {
                         <TableCell className="hidden md:table-cell">JPEG</TableCell>
                         <TableCell className="hidden md:table-cell">PNG</TableCell>
                         <TableCell>
-                            <Button size="sm" variant="outline">
+                            <Button size="sm" variant="outline" className="text-black pro">
                                 Download
                             </Button>
                         </TableCell>
@@ -37,7 +37,7 @@ const Files = () => {
                         <TableCell className="hidden md:table-cell">DOCX</TableCell>
                         <TableCell className="hidden md:table-cell">PDF</TableCell>
                         <TableCell>
-                            <Button size="sm" variant="outline">
+                            <Button size="sm" variant="outline" className="text-black pro">
                                 Download
                             </Button>
                         </TableCell>
@@ -50,7 +50,7 @@ const Files = () => {
                         <TableCell className="hidden md:table-cell">PPTX</TableCell>
                         <TableCell className="hidden md:table-cell">PDF</TableCell>
                         <TableCell>
-                            <Button size="sm" variant="outline">
+                            <Button size="sm" variant="outline" className="text-black pro">
                                 Download
                             </Button>
                         </TableCell>
