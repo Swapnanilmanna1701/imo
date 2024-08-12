@@ -133,7 +133,7 @@ export const pricingFeatures: PricingFeature[] = [
 export const plans: Plan[] = [
     {
         type: "Free",
-        info: "Have access to basic features and tools on Flint.",
+        info: "Have access to basic features and tools on Imo.",
         price: 0,
         features: [
             "Ads visible on the page",
@@ -144,7 +144,7 @@ export const plans: Plan[] = [
     },
     {
         type: "Pro",
-        info: "Get access to all the features and tools available on Flint.",
+        info: "Get access to all the features and tools available on Imo.",
         price: 199,
         priceMonthly: 125,
         priceYearly: 1999,

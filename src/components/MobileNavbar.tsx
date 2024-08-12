@@ -57,26 +57,26 @@ const MobileNavbar = () => {
                             <Menu className="w-5 h-5" />
                         </Button>
                     </SheetTrigger>
-                    <SheetContent>
+                    <SheetContent className="bg-black text-white">
                         <ul className="flex flex-col items-start w-full py-8 gap-y-0">
-                            <div className="mb-2 ml-4 text-sm font-medium uppercase text-muted-foreground">
+                            <div className="mb-2 ml-4 text-lg font-medium uppercase text-bold text-blue-500">
                                 Menu
                             </div>
                             <li className="w-full text-base font-medium">
-                                <Button variant="ghost" className="w-full">
+                                <Button variant="ghost" className="w-full pro">
                                     <Link href="/about" className="w-full text-base text-start">
                                         About
                                     </Link>
                                 </Button>
                             </li>
                             <li className="w-full text-base font-medium">
-                                <Button variant="ghost" className="w-full">
+                                <Button variant="ghost" className="w-full pro">
                                     <Link href="/pricing" className="w-full text-base text-start">
                                         Pricing
                                     </Link>
                                 </Button>
                             </li>
-                            <div className="pt-4 my-2 ml-4 text-sm font-medium uppercase text-muted-foreground">
+                            <div className="pt-4 my-2 ml-4 text-lg font-medium uppercase text-bold text-blue-500">
                                 Tools
                             </div>
                             {tools.map((tool) => (
@@ -89,27 +89,27 @@ const MobileNavbar = () => {
                                 </li>
                             ))}
                             <div className="pt-4 my-2 w-full">
-                                <div className="ml-4 pb-2 text-sm font-medium uppercase text-muted-foreground">
+                                <div className="ml-4 pb-2 text-lg font-medium uppercase text-bold text-blue-500">
                                     Account
                                 </div>
                                 {user ? (
                                     <div className="flex flex-col items-start w-full">
                                         <li className="w-full text-base text-start font-medium">
-                                            <Button variant="ghost" className="w-full text-base justify-start" asChild>
+                                            <Button variant="ghost" className="w-full text-base justify-start pro" asChild>
                                                 <Link href="/dashboard" className="w-full text-start">
                                                     Dashboard
                                                 </Link>
                                             </Button>
                                         </li>
                                         <li className="w-full text-base font-medium">
-                                            <Button variant="ghost" className="w-full text-base justify-start">
+                                            <Button variant="ghost" className="w-full text-base justify-start pro">
                                                 <Link href="/dashboard" className="w-full text-start">
                                                     Account
                                                 </Link>
                                             </Button>
                                         </li>
                                         <li className="w-full text-base font-medium">
-                                            <Button variant="ghost" className="w-full text-base justify-start">
+                                            <Button variant="ghost" className="w-full text-base justify-start pro">
                                                 <Link href="/dashboard" className="w-full text-start">
                                                     Settings
                                                 </Link>

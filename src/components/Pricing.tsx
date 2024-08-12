@@ -74,7 +74,7 @@ const Pricing = () => {
                 <TabsContent value="monthly" className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full mx-auto max-w-4xl">
                     {plans.map((plan) => (
                         <div key={plan.type} className="flex flex-col items-start w-full border border-border p-5 md:p-8 lg:p-10 rounded-xl lg:rounded-2xl">
-                            <h3 className="text-lg lg:text-2xl xl:text-3xl font-semibold lg:font-bold text-foreground">
+                            <h3 className="text-lg lg:text-2xl xl:text-3xl font-semibold lg:font-bold text-foreground text-white">
                                 {plan.type}
                             </h3>
                             <p className="text-muted-foreground mt-4">
@@ -121,7 +121,7 @@ const Pricing = () => {
                 <TabsContent value="yearly" className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full mx-auto max-w-4xl">
                     {plans.map((plan) => (
                         <div key={plan.type} className="flex flex-col items-start w-full border border-border p-5 md:p-8 lg:p-10 rounded-xl lg:rounded-2xl">
-                            <h3 className="text-lg lg:text-2xl xl:text-3xl font-semibold lg:font-bold text-foreground">
+                            <h3 className="text-lg lg:text-2xl xl:text-3xl font-semibold lg:font-bold text-foreground text-white">
                                 {plan.type}
                             </h3>
                             <p className="text-muted-foreground mt-4">
