@@ -8,11 +8,11 @@ const Files = () => {
             <Table>
                 <TableHeader>
                     <TableRow>
-                        <TableHead className="w-[80px]">Thumbnail</TableHead>
-                        <TableHead>File Name</TableHead>
-                        <TableHead className="hidden md:table-cell">Converted From</TableHead>
-                        <TableHead className="hidden md:table-cell">Converted To</TableHead>
-                        <TableHead>Actions</TableHead>
+                        <TableHead className="w-[80px] text-white text-bold">Thumbnail</TableHead>
+                        <TableHead className="text-white text-bold">File Name</TableHead>
+                        <TableHead className="hidden md:table-cell text-white text-bold">Converted From</TableHead>
+                        <TableHead className="hidden md:table-cell text-white text-bold">Converted To</TableHead>
+                        <TableHead className="text-white text-bold">Actions</TableHead>
                     </TableRow>
                 </TableHeader>
                 <TableBody>

@@ -56,10 +56,10 @@ const Navbar = () => {
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuTrigger>Tools</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                <NavigationMenuContent className="text-bold text-black">
+                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] text-bold text-black text-3xl">
                     {tools.map((tool) => (
-                      <ListItem key={tool.id} title={tool.name} href="#">
+                      <ListItem key={tool.id} title={tool.name} href="#" className="text-black">
                         {tool.description}
                       </ListItem>
                     ))}
